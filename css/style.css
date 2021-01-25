@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .news-logo {
   width: 400px;
   margin-bottom: -20px;
@@ -73,10 +77,35 @@ nav > section > div > a {
   z-index: 9;
 }
 
+.search-btn > input:focus {
+  width: 93%;
+  right: 10%;
+  text-indent: 40px;
+  position: absolute;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
 .subscribe {
   font-weight: bold;
   background-color: #ffe400;
   border-radius: 10rem;
+}
+
+.nav-3 > ul {
+  text-align: center;
+}
+
+.nav-3 > ul > li:first-of-type {
+  font-weight: bold;
+  color: black;
+  padding-left: 28px;
+}
+
+.nav-3 > ul > li > a {
+  font-weight: bold;
+  padding-left: 28px;
+  color: #807f84;
 }
 
 nav > section > ul > li > a:hover {
