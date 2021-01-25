@@ -27,6 +27,14 @@ nav > section > div > a {
   margin-right: 20px;
   font-weight: bolder;
 }
+section > div > a:last-of-type {
+  margin-left: 20px;
+  color: #FFFFFF8c;
+}
+
+.nav-0 > a {
+  padding-bottom: 8px;
+}
 
 .date {
   margin-right: 20px;
@@ -43,6 +51,10 @@ nav > section > div > a {
   text-align: center;
   flex-grow: 1;
   border-right: 1px solid rgb(221, 221, 221);
+}
+
+.nav2 > ul > li > i {
+  z-index: 7;
 }
 
 .nav2::before {
@@ -79,8 +91,8 @@ nav > section > div > a {
 
 .search-btn > input:focus {
   width: 93%;
-  right: 10%;
-  text-indent: 40px;
+  right: 11%;
+  text-indent: 55px;
   position: absolute;
   transition: all 0.3s ease;
   outline: none;
@@ -111,3 +123,5 @@ nav > section > div > a {
 nav > section > ul > li > a:hover {
   color: #f72210;
 }
+
+.nav-0 > 
