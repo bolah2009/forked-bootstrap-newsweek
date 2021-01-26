@@ -270,11 +270,19 @@ h3 {
 }
 
 .more-stories > .card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: block;
 }
 
+.more-stories > .card > .card-img > a {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.more-stories > .card > .card-body > p {
+  padding-top: 10px;
+}
 
 @media screen and (min-width: 576px) {
   .col-sm {
