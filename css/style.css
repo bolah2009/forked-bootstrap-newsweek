@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
-  overflow: hidden;
   max-width: 1300px;
 }
 
@@ -114,7 +113,7 @@ section > div > a:last-of-type {
 .nav-3 > ul > li:first-of-type {
   font-weight: bold;
   color: black;
-  padding-left: 28px;
+  padding-left: 25px;
 }
 
 .nav-3 > ul > li > a {
@@ -188,4 +187,10 @@ h3 {
   left: 0;
   bottom: 0;
   padding: 5px 12px;
+}
+
+.debate > .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
