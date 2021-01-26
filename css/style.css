@@ -27,13 +27,14 @@ nav > section > div > a {
   margin-right: 20px;
   font-weight: bolder;
 }
-section > div > a:last-of-type {
-  margin-left: 20px;
-  color: #FFFFFF8c;
-}
 
 .nav-0 > a {
   padding-bottom: 8px;
+}
+
+section > div > a:last-of-type {
+  margin-left: 20px;
+  color: #ffffff8c;
 }
 
 .date {
@@ -123,5 +124,3 @@ section > div > a:last-of-type {
 nav > section > ul > li > a:hover {
   color: #f72210;
 }
-
-.nav-0 > 
