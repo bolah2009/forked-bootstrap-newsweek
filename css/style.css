@@ -33,7 +33,7 @@ nav > section > div > a {
   padding-bottom: 8px;
 }
 
-section > div > a:last-of-type {
+.nav-0 > div > a:last-of-type {
   margin-left: 20px;
   color: #ffffff8c;
 }
@@ -195,9 +195,15 @@ h3 {
   flex-wrap: nowrap;
 }
 
+.debate-img {
+  width: 63px;
+  margin-right: 10px;
+}
 
-
-
+.culture > .card {
+  flex: 1;
+  padding: 0 10px 0 10px;
+}
 
 
 
