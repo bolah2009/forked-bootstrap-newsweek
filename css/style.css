@@ -120,8 +120,37 @@ section > div > a:last-of-type {
   color: #807f84;
 }
 
-nav > section > ul > li > a:hover {
-  color: #f72210;
+.footer-icons ul {
+  list-style: none;
 }
 
-.nav-0 > 
+.footer-icons ul li a {
+  border-right: 0;
+  color: #666;
+}
+
+.col-12 ul {
+  list-style: none;
+}
+.col-12 ul li a {
+  color: #666;
+}
+
+.footer-icons ul li a i {
+  font-size: 30px;
+}
+
+.footer-icons ul li a:hover {
+  background-color: blue;
+}
+
+footer svg {
+  fill: red;
+}
+
+footer {
+  position: relative;
+  margin-top: 500px;
+  z-index: 1;
+}
+
