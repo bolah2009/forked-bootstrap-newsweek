@@ -33,13 +33,38 @@ nav > section > div > a {
   padding-bottom: 8px;
 }
 
-.debate > div > div > h5 > a {
+.nav2 > ul > li > a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.nav-3 > ul > li > a {
+  font-weight: bold;
+  padding-left: 28px;
+  color: #807f84;
+}
+
+.footer-icons ul li a {
+  border-right: 0;
+  color: #666;
+}
+
+.col-12 ul li a {
+  color: #666;
+}
+
+.debate > div > div > h5 > a,
+.opinion > div > div > h5 > a {
   color: black;
   font-size: 17px;
   font-weight: bold;
 }
 
-.debate > div > div > span {
+.debate > div > div > span,
+.opinion > div > div > span {
   color: #555;
   font-size: 14px;
 }
@@ -56,14 +81,6 @@ nav > section > div > a {
 .nav2 > ul > li {
   flex-grow: 1;
   display: flex;
-}
-
-.nav2 > ul > li > a {
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  flex-grow: 1;
-  border-right: 1px solid rgb(221, 221, 221);
 }
 
 .nav2 > ul > li > i {
@@ -127,27 +144,12 @@ nav > section > div > a {
   padding-left: 25px;
 }
 
-.nav-3 > ul > li > a {
-  font-weight: bold;
-  padding-left: 28px;
-  color: #807f84;
-}
-
 .footer-icons ul {
   list-style: none;
 }
 
-.footer-icons ul li a {
-  border-right: 0;
-  color: #666;
-}
-
 .col-12 ul {
   list-style: none;
-}
-
-.col-12 ul li a {
-  color: #666;
 }
 
 .footer-icons ul li a i {
