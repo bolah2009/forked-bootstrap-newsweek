@@ -170,10 +170,66 @@ footer {
   z-index: 1;
 }
 
+.feat > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+ }
+ 
+.feat > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
+
+.sponsored > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+ }
+ 
+.sponsored > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
+
+.culture > .card > .card-body > a > p {
+  color: #666;
+}
+
+.debate > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+ }
+ 
+.debate > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
+
+.opinion > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+ }
+ 
+.opinion > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
+
+.top-story > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+ }
+ 
+.top-story > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
+
 .card {
   padding-bottom: 20px;
   border: none;
   border-radius: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -268,6 +324,17 @@ h3 {
 .opinion > div:last-of-type {
   border-bottom: none;
 }
+
+.more-stories > .card > .card-body > a > h5{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+ }
+
+ .more-stories > .card > .card-body > a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+ }
 
 .more-stories > .card {
   display: block;
