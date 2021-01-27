@@ -271,6 +271,7 @@ h3 {
 
 .more-stories > .card {
   display: block;
+  padding-bottom: 10px;
 }
 
 .more-stories > .card > .card-img > a {
@@ -284,10 +285,23 @@ h3 {
   padding-top: 10px;
 }
 
+.sponsored > .card > .card-body {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
 @media screen and (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .sponsored > .card {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
