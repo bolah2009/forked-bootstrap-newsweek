@@ -294,6 +294,40 @@ h3 {
   flex-direction: column;
 }
 
+.newsletter {
+  padding-top: 0px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.small-newsweek {
+  display: block;
+  width: 65px;
+  height: 28px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.newsletter > div > h4 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.newsletter > input {
+  width: 100%;
+  border: none;
+}
+
+.newsletter > a {
+  color: white;
+  background-color: #f72210;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  line-height: 31px;
+}
+
 @media screen and (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
