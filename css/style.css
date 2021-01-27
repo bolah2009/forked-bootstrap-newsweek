@@ -328,14 +328,20 @@ h3 {
   line-height: 31px;
 }
 
-.magazine > div > span {
+.second-part > div > span {
   width: 30px;
 }
 
-.magazine > div > h4 {
+.second-part > div > h4 {
   padding-top: 5px;
   font-size: 19px;
   font-weight: bold;
+}
+
+.magazine > div > div {
+  padding: 0 15px;
+  width: 25%;
+  height: 50%;
 }
 
 @media screen and (min-width: 576px) {
