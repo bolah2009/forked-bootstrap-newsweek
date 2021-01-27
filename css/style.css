@@ -174,8 +174,8 @@ footer svg {
 
 footer {
   position: relative;
-  margin-top: 500px;
   z-index: 1;
+  margin-top: 20px;
 }
 
 .feat > .card > .card-img > span {
