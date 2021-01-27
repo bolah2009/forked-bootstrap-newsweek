@@ -52,6 +52,10 @@ nav > section > div > a {
   color: #666;
 }
 
+.footer-icons ul li a i{
+  font-size: 15px;
+}
+
 .col-12 ul li a {
   color: #666;
 }
@@ -157,28 +161,44 @@ nav > section > div > a {
 }
 
 .footer-icons ul li a:hover {
-  background-color: blue;
+  color: blue;
 }
 
 footer svg {
   fill: red;
 }
+.footer > div > div > div > svg {
+  margin-left: 5px;
+} 
 
 footer {
   position: relative;
   margin-top: 500px;
   z-index: 1;
 }
+.feat > .card > .card-img > span {
+  color: #f72210;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
-.feat > .card > .card-body > a > h5{
+.feat > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
- }
+}
  
 .feat > .card > .card-body > a:hover{
   text-decoration: underline;
   text-decoration-color: red;
- }
+}
+
+.sponsored > .card > .card-img > span {
+  color: #3581f4;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .sponsored > .card > .card-body > a > h5{
   color: black;
@@ -197,6 +217,7 @@ footer {
 .debate > .card > .card-body > a > h5{
   color: black;
   font-weight: bold;
+  font-size: 17px;
  }
  
 .debate > .card > .card-body > a:hover{
@@ -207,6 +228,7 @@ footer {
 .opinion > .card > .card-body > a > h5{
   color: black;
   font-weight: bold;
+  font-size: 17px;
  }
  
 .opinion > .card > .card-body > a:hover{
@@ -456,6 +478,8 @@ h3 {
     margin-right: auto;
   }
 }
+
+
 
 @media screen and (min-width: 576px) {
   .col-sm {
