@@ -430,10 +430,22 @@ h3 {
   padding: 0 10px 0 10px;
 }
 
+.weird-header > h3 {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.special:first-of-type {
+  padding-top: 0;
+}
+
 .special {
   display: flex;
   flex-flow: row nowrap;
-  margin: 5px 0;
+  padding: 10px 0 10px 0;
   border-bottom: 1px rgb(209, 209, 209) solid;
 }
 
