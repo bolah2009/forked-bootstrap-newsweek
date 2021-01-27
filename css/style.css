@@ -510,6 +510,12 @@ footer > div:first-of-type {
   padding-bottom: 10px;
 }
 
+.subscribe-newsletter {
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .one {
   padding: 30px;
   display: flex;
@@ -553,6 +559,7 @@ footer > div:first-of-type {
   border: none;
   border-radius: 2px;
   line-height: 31px;
+  width: 120px;
 }
 
 .first-picture {
@@ -589,6 +596,17 @@ footer > div:first-of-type {
   line-height: 28px;
   margin-bottom: 15px;
   color: black;
+}
+
+.text1 > input {
+  width: 100%;
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  line-height: 38px;
 }
 
 @media screen and (max-width: 992px) {
