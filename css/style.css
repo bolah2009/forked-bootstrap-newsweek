@@ -52,6 +52,10 @@ nav > section > div > a {
   color: #666;
 }
 
+.footer-icons ul li a i{
+  font-size: 15px;
+}
+
 .col-12 ul li a {
   color: #666;
 }
@@ -157,12 +161,15 @@ nav > section > div > a {
 }
 
 .footer-icons ul li a:hover {
-  background-color: blue;
+  color: blue;
 }
 
 footer svg {
   fill: red;
 }
+.footer > div > div > div > svg {
+  margin-left: 5px;
+} 
 
 footer {
   position: relative;
@@ -425,6 +432,8 @@ h3 {
   width: 25%;
   height: 50%;
 }
+
+
 
 @media screen and (min-width: 576px) {
   .col-sm {
