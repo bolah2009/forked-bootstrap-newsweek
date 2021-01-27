@@ -290,6 +290,10 @@ h3 {
   padding: 20px;
 }
 
+.debate > .sponsored > .card {
+  flex-direction: column;
+}
+
 @media screen and (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
