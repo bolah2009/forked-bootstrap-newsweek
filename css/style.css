@@ -405,10 +405,44 @@ h3 {
   font-weight: bold;
 }
 
-.magazine > div > div {
-  padding: 0 15px;
+.magazine > .container1 > div:first-of-type {
   width: 25%;
-  height: 50%;
+}
+
+.container1 {
+  align-items: flex-end;
+  width: 100%;
+}
+
+.first-row {
+  width: 75%;
+}
+
+.first-row > div {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.flex-sm-3 {
+  padding: 0 10px 0 10px;
+}
+
+.special {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5px 0;
+  border-bottom: 1px rgb(209, 209, 209) solid;
+}
+
+@media screen and (max-width: 992px) {
+  .newsletter {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 576px) {
