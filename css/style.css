@@ -763,6 +763,63 @@ footer > div:first-of-type {
     margin-left: 15px;
     margin-right: 10px;
   }
+
+  .container1 > div:first-of-type {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .first-row {
+    width: 100%;
+    display: block;
+  }
+
+  .first-row > div,
+  .second-row > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .magazine {
+    --bs-gutter-x: 0 !important;
+  }
+
+  .container1 {
+    --bs-gutter-x: 0 !important;
+
+    display: block !important;
+  }
+
+  .mag-title {
+    display: flex;
+    border-bottom: none !important;
+  }
+
+  .editor1 > article,
+  .editor2 > article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .weird-grids > section > article {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .special > .card-img > a > img {
+    width: 258px;
+    height: 258px;
+  }
+
+  .special > .card-img {
+    width: 258px;
+  }
 }
 
 @media screen and (max-width: 991px) {
