@@ -46,6 +46,10 @@ nav > section > div > a {
   line-height: 31px;
 }
 
+.last > a {
+  border-right: none !important;
+}
+
 .text > a,
 .text1 > div > a {
   color: white;
@@ -57,7 +61,19 @@ nav > section > div > a {
   width: 120px;
 }
 
+.human {
+  font-size: 0;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+  opacity: 0.75;
+  color: white;
+  margin-right: 8px;
+}
+
 .nav2 > ul > li > a {
+  font-size: 19px;
   color: black;
   font-weight: bold;
   text-align: center;
@@ -278,6 +294,14 @@ footer > .navigations > div > ul > li a:hover {
   font-size: 17px;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.special > .card-img {
+  width: 110px;
+}
+
+.special > .card-body {
+  padding-left: 10px;
 }
 
 .special > div > a > h5 {
@@ -746,6 +770,16 @@ footer > div:first-of-type {
   .third-picture {
     height: 170px;
     min-width: 100%;
+  }
+
+  .subscribe {
+    font-size: 14px;
+  }
+
+  .hamburger {
+    font-size: 11px;
+    margin-left: 15px;
+    margin-right: 10px;
   }
 }
 
