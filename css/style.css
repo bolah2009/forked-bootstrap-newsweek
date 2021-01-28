@@ -225,37 +225,37 @@ footer {
   color: #666;
 }
 
-.debate > .card > .card-body > a > h5{
+.debate > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
   font-size: 17px;
- }
- 
+}
+
 .debate > .card > .card-body > a:hover{
   text-decoration: underline;
   text-decoration-color: red;
- }
+}
 
-.opinion > .card > .card-body > a > h5{
+.opinion > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
   font-size: 17px;
- }
- 
+}
+
 .opinion > .card > .card-body > a:hover{
   text-decoration: underline;
   text-decoration-color: red;
- }
+}
 
-.top-story > .card > .card-body > a > h5{
+.top-story > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
- }
- 
-.top-story > .card > .card-body > a:hover{
+}
+
+.top-story > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
- }
+}
 
 .card {
   padding-bottom: 20px;
@@ -534,6 +534,15 @@ footer > div:first-of-type {
   flex: 1;
   font-size: 15px;
   line-height: 20px;
+  background-color: #f4f5f6;
+}
+
+.trump {
+  padding-right: 40px;
+}
+
+.trump1 {
+  margin-left: -10px;
 }
 
 .two {
@@ -619,14 +628,20 @@ footer > div:first-of-type {
   line-height: 38px;
 }
 
-.line {
+.line,
+.line1 {
   background-color: #e4e5e6;
   height: 2px;
   top: 0;
-  margin-left: -65px;
+  margin-left: -54px;
+  margin-right: -54px;
   overflow: hidden;
   margin-bottom: 40px;
-  width: 1300px;
+}
+
+.line1 {
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 992px) {
