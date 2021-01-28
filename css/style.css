@@ -269,6 +269,10 @@ footer > .navigations > div > ul > li a:hover {
   color: #f72210;
 }
 
+.q {
+  font-weight: bold;
+}
+
 .feat > .card > .card-img > span {
   color: #f72210;
   font-size: 17px;
@@ -585,14 +589,28 @@ footer > div:first-of-type {
   font-size: 18px;
 }
 
+.magazine > .container1 > div > .card-body > a:hover {
+  background: red;
+}
+
 .magazine > .second-row > div > .card-body > a > h5 {
   color: #000;
   font-weight: bold;
 }
 
+.magazine > .second-row > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .magazine > .container1 > div > div > .card-body > a > h5 {
   color: #000;
   font-weight: bold;
+}
+
+.magazine > .container1 > div > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .first-row {
