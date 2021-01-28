@@ -33,12 +33,21 @@ nav > section > div > a {
   padding-bottom: 8px;
 }
 
+.nav2 {
+  margin-bottom: -5px;
+}
+
 .nav2 > ul > li > a {
   color: black;
   font-weight: bold;
   text-align: center;
   flex-grow: 1;
   border-right: 1px solid rgb(221, 221, 221);
+}
+
+.nav-3 {
+  border-top: 2px solid #f4f5f7;
+  border-bottom: 2px solid #f4f5f7;
 }
 
 .nav-3 > ul > li > a {
@@ -389,10 +398,12 @@ h3 {
 }
 
 .newsletter {
-  padding-top: 0px;
-  padding-bottom: 35px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 23px;
+  padding-left: 23px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
 }
 
 .small-newsweek {
@@ -410,7 +421,7 @@ h3 {
 
 .newsletter > input {
   width: 100%;
-  border: none;
+  border: 1px solid #e0e1e1;
 }
 
 .newsletter > a {
@@ -600,14 +611,13 @@ footer > div:first-of-type {
   width: 120px;
 }
 
-.first-picture {
+.first-picture,
+.second-picture {
   width: 170px;
   height: 228px;
 }
 
 .second-picture {
-  width: 170px;
-  height: 228px;
   position: absolute;
   top: 16px;
   left: 80px;
@@ -647,6 +657,16 @@ footer > div:first-of-type {
   line-height: 38px;
 }
 
+.line {
+  background-color: #e4e5e6;
+  height: 2px;
+  top: 0;
+  margin-left: -65px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  width: 1300px;
+}
+
 @media screen and (max-width: 992px) {
   .newsletter {
     max-width: 300px;
@@ -654,7 +674,7 @@ footer > div:first-of-type {
     margin-right: auto;
   }
 
-  .newsletter > span {
+  .small-newsweek {
     padding-bottom: 2px;
   }
 }
