@@ -786,6 +786,15 @@ footer > div:first-of-type {
     margin-right: 10px;
   }
 
+  .first-row > div,
+  .second-row > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
   .container1 > div:first-of-type {
     width: 100% !important;
     padding: 0 !important;
@@ -794,15 +803,6 @@ footer > div:first-of-type {
   .first-row {
     width: 100%;
     display: block;
-  }
-
-  .first-row > div,
-  .second-row > div {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    float: none !important;
-    width: 100% !important;
-    display: block !important;
   }
 
   .magazine {
@@ -923,5 +923,11 @@ footer > div:first-of-type {
     display: flex;
     flex-direction: row;
     flex: 1 1 auto !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .one {
+    display: block !important;
   }
 }
