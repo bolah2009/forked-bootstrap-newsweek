@@ -4,7 +4,7 @@
 
 > This is the readMe for the NewsWeek Project. It is a replica/clone of the Newsweek website.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./css/assets/screenshot.png)
 
 Good day world
 
