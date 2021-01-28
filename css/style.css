@@ -231,6 +231,11 @@ footer {
   margin-top: 20px;
 }
 
+.weird-grids > section > article > div > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
 footer > .navigations > div > ul > li a:hover {
   color: black;
 }
@@ -240,6 +245,24 @@ footer > .navigations > div > ul > li a:hover {
   width: 95px;
   margin-right: 15px;
   margin-bottom: 10px;
+}
+
+.editor > div > article > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.magazine > .second-row > div > .card-body > div > a {
+  color: #f72210;
+}
+
+.magazine > .container1 > div > div > .card-body > div > a {
+  color: #f72210;
+}
+
+.weird-grids > section > article > div > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 .editor > div > article > .card-img > span {
@@ -271,22 +294,9 @@ footer > .navigations > div > ul > li a:hover {
   font-weight: bold;
 }
 
-.editor > div > article > .card-body > a:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-
 .feat > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
-}
-
-.magazine > .second-row > div > .card-body > div > a {
-  color: #f72210;
-}
-
-.magazine > .container1 > div > div > .card-body > div > a {
-  color: #f72210;
 }
 
 .feat > .card > .card-body > a:hover {
