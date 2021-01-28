@@ -1,46 +1,95 @@
-# Newsweek-clone
-Newsweek-clone using Bootstrap
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Built with
-HTML CSS BOOTSTRAP
+# Newsweek Website Clone
 
-Live Demo
+> This is the readMe for the NewsWeek Project. It is a replica/clone of the Newsweek website.
 
-Milestone-1: In the first milestone, you will prepare the tools to develop this website and will create 2 small sections.
-Set up a new the repository
-Prepare the main HTML file
-Install Bootstrap in your project
-Prepare your project to work with 3 screen sizes: mobile, tablet, and desktop using the Bootstrap responsive grid classes
-Create these sections of the website for the 3 screen sizes
+![screenshot](./app_screenshot.png)
 
-Milestone-2 : In the second milestone, you will create the 3 columns main section of the website for the 3 screen sizes.
-Column 1 : Featured stories, Sponsored insights / Rankings
-Column 2 : Top story, My turn, Culture & travel, More stories, Latest news
-Column 3 : The debate, Opinion, Sponsored insights / Rankings, Free signup
-The content order defined above in 3 columns is for the desktop view. You need to make sure that the sections move to the correct location for mobile and tablet views.
+Good day world
 
-Milestone-3 : In the third and last milestone of the project, you will complete the last sections of the website and prepare it for your portfolio.
 
-Prerequisites 
-Text Editor
-internet brower
+Lets welcome one more code in the line of many more to come during our time here at Microverse.
+-Matija Maksimovic
 
-Setup
-git clone
-cd repo-folder
-open in browser
 
-Install
-No instalation required!
-Authors
-bust_in_silhouette 
+Our website was created with bootstrap fluidity and user interaction in mind.
 
-Author1
-GitHub: @mahtsham
-LinkedIn: https://www.linkedin.com/in/muhammad-ahtsham 
-Twitter: @Muhamma69639448
 
-Author2
-GitHub: @githubhandle
-LinkedIn: LinkedIn
-Twitter: 
+please enjoy!
+
+## Built With
+
+- CSS3
+- HTML5
+- Bootstrap
+- Flex 
+
+
+## Live Demo
+
+[Live Demo Link](https://mandeln.github.io/The-next-web-project/)
+
+
+## Getting Started
+
+**First ensure the assets folder is set in a location which is in the same folder as the other files. The Index and CSS should also be easily accessible. All the content in this project was linked to offline files in the assets folder.**
+
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+Online website hoster ie. GoDaddy or similar
+
+### Setup
+
+Upload all files to the hosting service
+
+### Install
+
+Make sure each file is named correctly and accessible
+
+### Usage
+
+This website can be ran multiple times
+
+### Run tests
+
+Use a code editor to make any changes or use your browser to access the website offline
+
+### Deployment
+
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@MandeIn](https://github.com/MandeIn)
+- Twitter: [@MandeIn](https://twitter.com/MandeIn)
+- LinkedIn: [MandeIn](https://linkedin.com/MandeIn)
+
+👤 **Author2**
+
+- GitHub: [@mahtsham](https://github.com/mahtsham)
+- Twitter: [@mahtsham](https://twitter.com/mahtsham)
+- LinkedIn: [mahtsham](https://linkedin.com/mahtsham)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues](https://github.com/mahtsham/Newsweek-clone/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- StackOverflow
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
