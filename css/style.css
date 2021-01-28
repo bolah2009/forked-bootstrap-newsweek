@@ -693,6 +693,11 @@ footer > div:first-of-type {
   margin-bottom: 15px;
 }
 
+.special > .card-img > a > img {
+  height: 110px;
+  width: 110px;
+}
+
 @media screen and (max-width: 992px) {
   .newsletter {
     max-width: 300px;
@@ -702,6 +707,15 @@ footer > div:first-of-type {
 
   .small-newsweek {
     padding-bottom: 2px;
+  }
+
+  .trump,
+  .trump1 {
+    width: 100% !important;
+  }
+
+  .trump1 {
+    padding-top: 20px;
   }
 }
 
