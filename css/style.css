@@ -285,6 +285,10 @@ footer > .navigations > div > ul > li a:hover {
   color: #f72210;
 }
 
+.q {
+  font-weight: bold;
+}
+
 .feat > .card > .card-img > span {
   color: #f72210;
   font-size: 17px;
@@ -292,8 +296,18 @@ footer > .navigations > div > ul > li a:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.card-img {
+  position: relative;
+  margin-bottom: 10px;
+}
+
 .special > .card-img {
   width: 110px;
+}
+
+.card-body {
+  padding: 0;
+  min-height: 1px;
 }
 
 .special > .card-body {
@@ -326,11 +340,6 @@ footer > .navigations > div > ul > li a:hover {
 .feat > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
-}
-
-.card-body {
-  padding: 0;
-  min-height: 1px;
 }
 
 .sponsored > article > .card-body {
@@ -415,11 +424,6 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: bold;
-}
-
-.card-img {
-  position: relative;
-  margin-bottom: 10px;
 }
 
 .debate > .card {
@@ -609,14 +613,28 @@ footer > div:first-of-type {
   font-size: 18px;
 }
 
+.magazine > .container1 > div > .card-body > a:hover {
+  background-color: red;
+}
+
 .magazine > .second-row > div > .card-body > a > h5 {
   color: #000;
   font-weight: bold;
 }
 
+.magazine > .second-row > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .magazine > .container1 > div > div > .card-body > a > h5 {
   color: #000;
   font-weight: bold;
+}
+
+.magazine > .container1 > div > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .first-row {
