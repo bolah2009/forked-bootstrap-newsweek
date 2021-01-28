@@ -625,7 +625,7 @@ footer > div:first-of-type {
 }
 
 .text > a,
-.text1 > a {
+.text1> div > a {
   color: white;
   background-color: #f72210;
   font-weight: bold;
@@ -670,7 +670,7 @@ footer > div:first-of-type {
   color: black;
 }
 
-.text1 > input {
+.text1 > div > input {
   width: 100%;
   color: #555;
   font-size: 14px;
@@ -702,7 +702,7 @@ footer > div:first-of-type {
   width: 110px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .newsletter {
     max-width: 300px;
     margin-left: auto;
@@ -719,7 +719,37 @@ footer > div:first-of-type {
   }
 
   .trump1 {
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  .trump {
+    padding-right: 10px;
+  }
+
+  .two {
+    text-align: center;
+  }
+
+  .fix {
+    display: flex;
+  }
+
+  .fix > input,
+  .fix > a {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .fix > a {
+    width: 180px !important;
+    height: 41px;
+    line-height: 41px !important;
+  }
+
+  .text > a {
+    height: 41px;
+    line-height: 41px !important;
   }
 }
 
@@ -736,5 +766,20 @@ footer > div:first-of-type {
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .third-picture,
+  .text1 {
+    width: 50%;
+  }
+
+  .third-picture {
+    min-width: 50%;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto !important;
   }
 }
