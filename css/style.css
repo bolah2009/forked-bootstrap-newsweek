@@ -525,6 +525,7 @@ footer > div:first-of-type {
   padding-top: 40px;
   padding-right: 30px;
   padding-left: 30px;
+  margin: auto;
 }
 
 .one {
