@@ -271,6 +271,11 @@ footer > .navigations > div > ul > li a:hover {
   font-weight: bold;
 }
 
+.editor > div > article > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .feat > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
