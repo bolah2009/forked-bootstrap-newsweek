@@ -501,6 +501,8 @@ h3 {
 .more-stories > .card {
   display: block;
   padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
 
 .debate > section > .card {
