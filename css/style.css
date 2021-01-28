@@ -194,8 +194,8 @@ nav > section > div > a {
 
 .search-btn > input:focus {
   width: 93%;
-  right: 11%;
-  text-indent: 55px;
+  right: 10%;
+  text-indent: 57px;
   position: absolute;
   transition: all 0.3s ease;
   outline: none;
