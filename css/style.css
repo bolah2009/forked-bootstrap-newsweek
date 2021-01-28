@@ -452,6 +452,54 @@ h3 {
   width: 100%;
 }
 
+.magazine > .container1 > div > .card-body > a > h3{
+  color: #000000;
+  font-size: 18px;
+}
+
+.magazine > .container1 > div > .card-img > span {
+  color: #f72210;
+  font-weight: bold;
+}
+.magazine > .container1 > div > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+.magazine > .container1 > div > div > .card-body > div > a {
+  color: #f72210;
+}
+.magazine > .container1 > div > div > .card-body > a > h5 {
+  color:black;
+  font-weight: bold;
+}
+
+.magazine > .second-row > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+.magazine > .second-row > div > .card-body > div > a {
+  color: #f72210;
+}
+.magazine > .second-row > div > .card-body > a > h5 {
+  color:black;
+  font-weight: bold;
+}
+
+.editor > div > article > .card-img > span {
+  color: #f72210;
+}
+.editor > div > article > .card-body > a > h5 {
+  color: #000000;
+  font-weight: bold;
+}
+.editor > div > article > .card-body > p {
+  color: #333333;
+}
+
 .first-row {
   width: 75%;
 }
