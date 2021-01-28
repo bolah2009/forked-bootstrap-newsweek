@@ -446,7 +446,8 @@ h3 {
   margin: 0 -10px 0 -10px;
 }
 
-#middle-line {
+#middle-line,
+#middle-line1 {
   position: relative;
   width: 100%;
   height: 3px;
@@ -474,7 +475,8 @@ h3 {
   margin-right: 0.7px;
 }
 
-#middle-line > span {
+#middle-line > span,
+#middle-line1 > span {
   position: absolute;
   border-radius: 50%;
   background-color: black;
