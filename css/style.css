@@ -702,6 +702,10 @@ footer > div:first-of-type {
   width: 110px;
 }
 
+footer > .navigations > div > ul > li a:hover{
+  color: #000000;
+}
+
 @media screen and (max-width: 992px) {
   .newsletter {
     max-width: 300px;
