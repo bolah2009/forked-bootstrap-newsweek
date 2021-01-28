@@ -703,7 +703,14 @@ footer > div:first-of-type {
 }
 
 footer > .navigations > div > ul > li a:hover {
-  color: #000000;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .third-picture {
+    height: 170px;
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -746,7 +753,7 @@ footer > .navigations > div > ul > li a:hover {
   }
 
   .fix > a {
-    width: 200px !important;
+    width: 284px !important;
     height: 41px;
     line-height: 41px !important;
   }
