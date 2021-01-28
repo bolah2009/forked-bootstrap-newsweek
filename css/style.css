@@ -37,6 +37,26 @@ nav > section > div > a {
   margin-bottom: -5px;
 }
 
+.newsletter > a {
+  color: white;
+  background-color: #f72210;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  line-height: 31px;
+}
+
+.text > a,
+.text1 > div > a {
+  color: white;
+  background-color: #f72210;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  line-height: 31px;
+  width: 120px;
+}
+
 .nav2 > ul > li > a {
   color: black;
   font-weight: bold;
@@ -61,10 +81,6 @@ nav > section > div > a {
   color: #666;
 }
 
-.footer-icons ul li a i{
-  font-size: 15px;
-}
-
 .col-12 ul li a {
   color: #666;
 }
@@ -74,6 +90,18 @@ nav > section > div > a {
   color: black;
   font-size: 17px;
   font-weight: bold;
+}
+
+.card-img > span {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 5px 12px;
+}
+
+.second-part > div > span {
+  width: 30px;
 }
 
 .debate > div > div > span,
@@ -121,6 +149,11 @@ nav > section > div > a {
   height: 50px;
 }
 
+.newsletter > input {
+  width: 100%;
+  border: 1px solid #e0e1e1;
+}
+
 .search-btn {
   height: 30px;
   margin-right: 60px;
@@ -130,6 +163,17 @@ nav > section > div > a {
 .search-btn > input {
   width: 65px;
   z-index: 9;
+}
+
+.text1 > div > input {
+  width: 100%;
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  line-height: 38px;
 }
 
 .search-btn > input:focus {
@@ -187,6 +231,21 @@ footer {
   margin-top: 20px;
 }
 
+footer > .navigations > div > ul > li a:hover {
+  color: black;
+}
+
+.more-stories > .card > .card-img > a {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.editor > div > article > .card-img > span {
+  color: #f72210;
+}
+
 .feat > .card > .card-img > span {
   color: #f72210;
   font-size: 17px;
@@ -194,14 +253,45 @@ footer {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.special > div > a > h5 {
+  font-size: 17px;
+  padding-left: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.weird-grids > section > article > div > a > h5 {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.editor > div > article > .card-body > a > h5 {
+  color: #000;
+  font-weight: bold;
+}
+
 .feat > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
 }
 
+.magazine > .second-row > div > .card-body > div > a {
+  color: #f72210;
+}
+
+.magazine > .container1 > div > div > .card-body > div > a {
+  color: #f72210;
+}
+
 .feat > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
+}
+
+.card-body {
+  padding: 0;
+  min-height: 1px;
 }
 
 .sponsored > article > .card-body {
@@ -218,12 +308,24 @@ footer {
 .sponsored > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
- }
- 
+}
+
 .sponsored > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
- }
+}
+
+.card-body > p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor > div > article > .card-body > p {
+  color: #333;
+}
+
+.more-stories > .card > .card-body > p {
+  padding-top: 10px;
+}
 
 .culture > .card > .card-body > a > p {
   color: #666;
@@ -235,7 +337,7 @@ footer {
   font-size: 17px;
 }
 
-.debate > .card > .card-body > a:hover{
+.debate > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
 }
@@ -246,7 +348,7 @@ footer {
   font-size: 17px;
 }
 
-.opinion > .card > .card-body > a:hover{
+.opinion > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
 }
@@ -268,10 +370,6 @@ footer {
   font-size: 15px;
 }
 
-.card-body > p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 h3 {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
@@ -283,19 +381,6 @@ h3 {
 .card-img {
   position: relative;
   margin-bottom: 10px;
-}
-
-.card-body {
-  padding: 0;
-  min-height: 1px;
-}
-
-.card-img > span {
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 5px 12px;
 }
 
 .debate > .card {
@@ -327,6 +412,25 @@ h3 {
   margin: 5px 0 30px 0;
 }
 
+.magazine > .container1 > div > .card-img > span {
+  color: #f72210;
+  font-weight: bold;
+}
+
+.magazine > .second-row > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+
+.magazine > .container1 > div > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+
 #middle-line > span {
   position: absolute;
   border-radius: 50%;
@@ -351,6 +455,11 @@ h3 {
   padding-bottom: 10px;
 }
 
+.more-stories > .card {
+  display: block;
+  padding-bottom: 10px;
+}
+
 .debate > section > .card {
   display: flex;
   flex-direction: row;
@@ -361,35 +470,31 @@ h3 {
   border-bottom: 1px solid #ddd;
 }
 
+.first-row > div {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+footer > div:first-of-type {
+  width: 100%;
+}
+
 .opinion > div:last-of-type {
   border-bottom: none;
 }
 
-.more-stories > .card > .card-body > a > h5{
+.more-stories > .card > .card-body > a > h5 {
   color: black;
   font-weight: bold;
   font-size: 17px;
- }
+}
 
- .more-stories > .card > .card-body > a:hover{
+.more-stories > .card > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
- }
-
-.more-stories > .card {
-  display: block;
-  padding-bottom: 10px;
-}
-
-.more-stories > .card > .card-img > a {
-  float: left;
-  width: 95px;
-  margin-right: 15px;
-  margin-bottom: 10px;
-}
-
-.more-stories > .card > .card-body > p {
-  padding-top: 10px;
 }
 
 .sponsored > .card > .card-body {
@@ -423,24 +528,6 @@ h3 {
   font-weight: bold;
 }
 
-.newsletter > input {
-  width: 100%;
-  border: 1px solid #e0e1e1;
-}
-
-.newsletter > a {
-  color: white;
-  background-color: #f72210;
-  font-weight: bold;
-  border: none;
-  border-radius: 2px;
-  line-height: 31px;
-}
-
-.second-part > div > span {
-  width: 30px;
-}
-
 .second-part > div > h4 {
   padding-top: 5px;
   font-size: 19px;
@@ -456,70 +543,6 @@ h3 {
   width: 100%;
 }
 
-.magazine > .container1 > div > .card-body > a > h3{
-  color: #000000;
-  font-size: 18px;
-}
-
-.magazine > .container1 > div > .card-img > span {
-  color: #f72210;
-  font-weight: bold;
-}
-.magazine > .container1 > div > div > .card-body > div > span {
-  background-color: #f72210;
-  color: white;
-  padding: 3px;
-  margin-right: 0.7px;
-}
-.magazine > .container1 > div > div > .card-body > div > a {
-  color: #f72210;
-}
-.magazine > .container1 > div > div > .card-body > a > h5 {
-  color:black;
-  font-weight: bold;
-}
-
-.magazine > .second-row > div > .card-body > div > span {
-  background-color: #f72210;
-  color: white;
-  padding: 3px;
-  margin-right: 0.7px;
-}
-.magazine > .second-row > div > .card-body > div > a {
-  color: #f72210;
-}
-.magazine > .second-row > div > .card-body > a > h5 {
-  color:black;
-  font-weight: bold;
-}
-
-.editor > div > article > .card-img > span {
-  color: #f72210;
-}
-.editor > div > article > .card-body > a > h5 {
-  color: #000000;
-  font-weight: bold;
-}
-.editor > div > article > .card-body > p {
-  color: #333333;
-}
-
-.first-row {
-  width: 75%;
-}
-
-.first-row > div {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  float: left;
-}
-
-.flex-sm-3 {
-  padding: 0 10px 0 10px;
-}
-
 .weird-header > h3 {
   border-top: 1px solid #d9d9d9;
   color: #f72210;
@@ -528,8 +551,41 @@ h3 {
   line-height: 22px;
 }
 
-.special:first-of-type {
-  padding-top: 0;
+.text > h3 {
+  margin-bottom: 15px;
+  color: black;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text1 > h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.magazine > .container1 > div > .card-body > a > h3 {
+  color: #000;
+  font-size: 18px;
+}
+
+.magazine > .second-row > div > .card-body > a > h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.magazine > .container1 > div > div > .card-body > a > h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.first-row {
+  width: 75%;
+}
+
+.flex-sm-3 {
+  padding: 0 10px 0 10px;
 }
 
 .special {
@@ -539,25 +595,12 @@ h3 {
   border-bottom: 1px rgb(209, 209, 209) solid;
 }
 
+.special:first-of-type {
+  padding-top: 0;
+}
+
 .navigations {
   width: 100%;
-}
-
-footer > div:first-of-type {
-  width: 100%;
-}
-
-.weird-grids > section > article > div > a > h5 {
-  font-size: 22px;
-  font-weight: bold;
-  color: black;
-}
-
-.special > div > a > h5 {
-  font-size: 17px;
-  padding-left: 5px;
-  color: black;
-  font-weight: bold;
 }
 
 .flex-fill > .special:last-of-type {
@@ -617,24 +660,6 @@ footer > div:first-of-type {
   padding-left: 30px;
 }
 
-.text > h3 {
-  margin-bottom: 15px;
-  color: black;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.text > a,
-.text1> div > a {
-  color: white;
-  background-color: #f72210;
-  font-weight: bold;
-  border: none;
-  border-radius: 2px;
-  line-height: 31px;
-  width: 120px;
-}
-
 .first-picture,
 .second-picture {
   width: 170px;
@@ -663,24 +688,6 @@ footer > div:first-of-type {
   border-left-width: 0;
 }
 
-.text1 > h3 {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 15px;
-  color: black;
-}
-
-.text1 > div > input {
-  width: 100%;
-  color: #555;
-  font-size: 14px;
-  font-family: "Helvetica", sans-serif;
-  background-color: white;
-  border: 1px solid #e0e1e1;
-  text-indent: 9px;
-  line-height: 38px;
-}
-
 .line,
 .line1 {
   background-color: #e4e5e6;
@@ -700,10 +707,6 @@ footer > div:first-of-type {
 .special > .card-img > a > img {
   height: 110px;
   width: 110px;
-}
-
-footer > .navigations > div > ul > li a:hover {
-  color: black;
 }
 
 @media screen and (max-width: 767px) {
