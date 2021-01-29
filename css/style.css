@@ -217,6 +217,14 @@ nav > section > div > a {
   text-align: center;
 }
 
+.footer-icons ul {
+  list-style: none;
+}
+
+.col-12 ul {
+  list-style: none;
+}
+
 .navigations > div > ul {
   padding-left: 12px !important;
 }
@@ -230,14 +238,6 @@ nav > section > div > a {
   font-weight: bold;
   color: black;
   padding-left: 25px;
-}
-
-.footer-icons ul {
-  list-style: none;
-}
-
-.col-12 ul {
-  list-style: none;
 }
 
 .footer-icons ul li a i {
