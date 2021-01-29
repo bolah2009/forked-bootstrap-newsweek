@@ -147,6 +147,11 @@ nav > section > div > a {
   border-right: 1px solid rgb(221, 221, 221);
 }
 
+.navigations > div > ul > li {
+  padding-right: 10px;
+  margin: 6px 0;
+}
+
 .nav2 > ul > li:last-of-type {
   border-right: none;
 }
@@ -222,11 +227,6 @@ nav > section > div > a {
 
 .navigations > div > ul {
   padding-left: 12px !important;
-}
-
-.navigations > div > ul > li {
-  padding-right: 10px;
-  margin: 6px 0;
 }
 
 .nav-3 > ul > li:first-of-type {
