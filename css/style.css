@@ -216,7 +216,6 @@ nav > section > div > a {
 }
 
 .subscribe {
-  font-weight: bold;
   background-color: #ffe400;
   border-radius: 10rem;
 }
@@ -230,7 +229,6 @@ nav > section > div > a {
 }
 
 .nav-3 > ul > li:first-of-type {
-  font-weight: bold;
   color: black;
   padding-left: 25px;
 }
@@ -298,10 +296,6 @@ footer > .navigations > div > ul > li a:hover {
 
 .editor > div > article > .card-img > span {
   color: #f72210;
-}
-
-.q {
-  font-weight: bold;
 }
 
 .feat > .card > .card-img > span {
