@@ -107,13 +107,6 @@ nav > section > div > a {
   color: #666;
 }
 
-.debate > div > div > h5 > a,
-.opinion > div > div > h5 > a {
-  color: black;
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .card-img > span {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -397,7 +390,8 @@ footer > .navigations > div > ul > li a:hover {
 }
 
 .culture > .card > .card-body > a > p {
-  color: #666;
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 15px;
 }
 
 .debate > .card > .card-body > a > h5 {
