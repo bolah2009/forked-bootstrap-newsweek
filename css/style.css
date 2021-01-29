@@ -136,7 +136,6 @@ nav > section > div > a {
 
 .nav2 > ul > li {
   flex-grow: 1;
-  display: flex;
 }
 
 .nav2 > ul > li > i {
@@ -208,10 +207,6 @@ nav > section > div > a {
 
 .nav-3 > ul {
   text-align: center;
-}
-
-.footer-icons ul {
-  list-style: none;
 }
 
 .col-12 ul {
