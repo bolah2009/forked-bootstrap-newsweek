@@ -97,6 +97,12 @@ nav > section > div > a {
   color: #666;
 }
 
+.footer-icons > ul {
+  padding-left: 6px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
 .col-12 ul li a {
   color: #666;
 }
@@ -211,6 +217,15 @@ nav > section > div > a {
   text-align: center;
 }
 
+.navigations > div > ul {
+  padding-left: 12px !important;
+}
+
+.navigations > div > ul > li {
+  padding-right: 10px;
+  margin: 6px 0;
+}
+
 .nav-3 > ul > li:first-of-type {
   font-weight: bold;
   color: black;
@@ -245,6 +260,13 @@ footer {
   position: relative;
   z-index: 1;
   margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+.navigations {
+  font-size: 14px;
+  width: 100%;
 }
 
 .weird-grids > section > article > div > a:hover {
@@ -527,6 +549,7 @@ h3 {
 
 footer > div:first-of-type {
   width: 100%;
+  font-size: 12px;
 }
 
 .opinion > div:last-of-type {
@@ -660,10 +683,6 @@ footer > div:first-of-type {
   padding-top: 0;
 }
 
-.navigations {
-  width: 100%;
-}
-
 .flex-fill > .special:last-of-type {
   border: none;
   padding-bottom: 20px;
@@ -768,6 +787,11 @@ footer > div:first-of-type {
 .special > .card-img > a > img {
   height: 110px;
   width: 110px;
+}
+
+.editions {
+  border-right: none !important;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
@@ -892,6 +916,19 @@ footer > div:first-of-type {
   .text > a {
     height: 41px;
     line-height: 41px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigations > div > ul > li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    padding-bottom: 7px;
+    padding-left: 15px;
   }
 }
 
