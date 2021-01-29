@@ -940,6 +940,13 @@ footer > div:first-of-type {
   }
 }
 
+@media screen and (min-width: 991px) {
+  footer {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .sponsored > .card {
     max-width: 330px;
