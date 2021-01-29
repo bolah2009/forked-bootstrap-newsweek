@@ -28,7 +28,7 @@ please enjoy!
 
 ## Live Demo
 
-[Live Demo Link](https://mandeln.github.io/The-next-web-project/)
+[Live Demo Link](https://mahtsham.github.io/Newsweek-clone/)
 
 
 ## Getting Started
