@@ -1,0 +1,884 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 1300px;
+}
+
+nav {
+  background-color: #f72210;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-1 {
+  height: 90px;
+}
+
+svg {
+  fill: white;
+}
+
+nav > section > div > a {
+  margin-right: 20px;
+}
+
+.newsletter > a {
+  color: white;
+  background-color: #f72210;
+  border-radius: 2px;
+  line-height: 31px;
+}
+
+.last {
+  border-right: none !important;
+}
+
+.text > a,
+.text1 > div > a {
+  color: white;
+  background-color: #f72210;
+  border-radius: 2px;
+  line-height: 31px;
+  width: 120px;
+}
+
+.human {
+  font-size: 0;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+  opacity: 0.75;
+  color: white;
+  margin-right: 8px;
+}
+
+.nav2 > ul > li > a {
+  font-size: 19px;
+  color: black;
+  flex-grow: 1;
+}
+
+.nav-3 {
+  border-top: 2px solid #f4f5f7;
+  border-bottom: 2px solid #f4f5f7;
+}
+
+.nav-3 > ul > li > a {
+  padding-left: 28px;
+  color: #807f84;
+}
+
+.footer-icons ul li a {
+  border-right: 0;
+  color: #666;
+}
+
+.footer-icons > ul {
+  padding-left: 6px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.col-12 ul li a {
+  color: #666;
+}
+
+.card-img > span {
+  background-color: rgba(255, 255, 255, 0.9);
+  left: 0;
+  bottom: 0;
+  padding: 5px 12px;
+}
+
+.middle-line > span,
+.middle-line1 > span {
+  background-color: black;
+  color: white;
+  top: -16px;
+  padding: 10px;
+  font-size: 14px;
+  z-index: 10;
+  line-height: 16px;
+  margin-left: -14px;
+}
+
+.second-part > div > span {
+  width: 30px;
+}
+
+.debate > div > div > span,
+.opinion > div > div > span {
+  color: #555;
+  font-size: 14px;
+}
+
+.nav-0 > div > a:last-of-type {
+  margin-left: 20px;
+  color: #ffffff8c;
+}
+
+.date {
+  margin-right: 20px;
+}
+
+.nav2 > ul > li {
+  flex-grow: 1;
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.navigations > div > ul > li {
+  padding-right: 10px;
+  margin: 6px 0;
+}
+
+.nav2 > ul > li:last-of-type {
+  border-right: none;
+}
+
+.nav2 > ul > li > i {
+  z-index: 7;
+}
+
+.nav2::before {
+  background-color: #f72210;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 90px;
+  height: 15px;
+}
+
+.nav2::after {
+  transform: rotate(45deg);
+  background-color: white;
+  position: absolute;
+  top: -3px;
+  right: 6%;
+  content: "";
+  width: 50px;
+  height: 50px;
+}
+
+.newsletter > input {
+  border: 1px solid #e0e1e1;
+}
+
+.search-btn {
+  height: 30px;
+  margin-right: 60px;
+  z-index: 10;
+}
+
+.search-btn > input {
+  width: 65px;
+  z-index: 9;
+}
+
+.text1 > div > input {
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  line-height: 38px;
+}
+
+.search-btn > input:focus {
+  width: 93%;
+  right: 10%;
+  text-indent: 57px;
+  position: absolute;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.subscribe {
+  background-color: #ffe400;
+  border-radius: 10rem;
+}
+
+.col-12 ul {
+  list-style: none;
+}
+
+.navigations > div > ul {
+  padding-left: 12px !important;
+}
+
+.nav-3 > ul > li:first-of-type {
+  color: black;
+  padding-left: 25px;
+}
+
+.footer-icons ul li a i {
+  font-size: 30px;
+}
+
+.footer-icons ul li a:hover {
+  color: blue;
+}
+
+footer svg {
+  fill: red;
+}
+
+.footer > div > div > div > svg {
+  margin-left: 5px;
+}
+
+footer {
+  z-index: 1;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+.navigations {
+  font-size: 14px;
+}
+
+.weird-grids > section > article > div > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+footer > .navigations > div > ul > li a:hover {
+  color: black;
+}
+
+.more-stories > .card > .card-img > a {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.editor > div > article > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.magazine > .second-row > div > .card-body > div > a {
+  color: #f72210;
+}
+
+.magazine > .container1 > div > div > .card-body > div > a {
+  color: #f72210;
+}
+
+.weird-grids > section > article > div > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.editor > div > article > .card-img > span {
+  color: #f72210;
+}
+
+.feat > .card > .card-img > span {
+  color: #f72210;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card-img {
+  margin-bottom: 10px;
+}
+
+.special > .card-img {
+  width: 110px;
+}
+
+.card-body {
+  padding: 0;
+  min-height: 1px;
+}
+
+.special > .card-body {
+  padding-left: 10px;
+}
+
+.special > div > a > h5 {
+  font-size: 17px;
+  padding-left: 5px;
+  color: black;
+}
+
+.weird-grids > section > article > div > a > h5 {
+  font-size: 22px;
+  color: black;
+}
+
+.editor > div > article > .card-body > a > h5 {
+  color: #000;
+}
+
+.feat > .card > .card-body > a > h5 {
+  color: black;
+}
+
+.feat > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.sponsored > article > .card-body {
+  margin-top: -10px;
+}
+
+.sponsored > .card > .card-img > span {
+  color: #3581f4;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.sponsored > .card > .card-body > a > h5 {
+  color: black;
+}
+
+.sponsored > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.card-body > p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor > div > article > .card-body > p {
+  color: #333;
+}
+
+.more-stories > .card > .card-body > p {
+  padding-top: 10px;
+}
+
+.culture > .card > .card-body > a > p {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 15px;
+}
+
+.debate > .card > .card-body > a > h5 {
+  color: black;
+  font-size: 17px;
+}
+
+.debate > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.opinion > .card > .card-body > a > h5 {
+  color: black;
+  font-size: 17px;
+}
+
+.opinion > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.top-story > .card > .card-body > a > h5 {
+  color: black;
+}
+
+.top-story > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.card {
+  padding-bottom: 20px;
+  border-radius: 0;
+  font-size: 15px;
+}
+
+h3 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.debate > .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.debate-img {
+  width: 63px;
+  margin-right: 10px;
+}
+
+.culture > .card {
+  flex: 1;
+  padding: 0 10px 0 10px;
+}
+
+.culture {
+  margin: 0 -10px 0 -10px;
+}
+
+.middle-line,
+.middle-line1 {
+  height: 3px;
+  border: 1px solid #d9d9d9;
+  margin: 5px 0 30px 0;
+}
+
+.magazine > .container1 > div > .card-img > span {
+  color: #f72210;
+}
+
+.magazine > .second-row > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+
+.magazine > .container1 > div > div > .card-body > div > span {
+  background-color: #f72210;
+  color: white;
+  padding: 3px;
+  margin-right: 0.7px;
+}
+
+.debate > .first {
+  padding-top: 10px;
+  border-top: 4px solid #d9d9d9;
+}
+
+.debate > .second {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 10px;
+}
+
+.more-stories > .card {
+  display: block;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.debate > section > .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.opinion > div {
+  border-bottom: 1px solid #ddd;
+}
+
+.first-row > div {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+footer > div:first-of-type {
+  font-size: 12px;
+}
+
+.opinion > div:last-of-type {
+  border-bottom: none;
+}
+
+.more-stories > .card > .card-body > a > h5 {
+  color: black;
+  font-size: 17px;
+}
+
+.more-stories > .card > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.sponsored > .card > .card-body {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+.debate > .sponsored > .card {
+  flex-direction: column;
+}
+
+.newsletter {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 23px;
+  padding-left: 23px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+}
+
+.small-newsweek {
+  display: block;
+  width: 65px;
+  height: 28px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.newsletter > div > h4 {
+  font-size: 19px;
+}
+
+.second-part > div > h4 {
+  padding-top: 5px;
+  font-size: 19px;
+}
+
+.weird-header > h3 {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.text > h3 {
+  margin-bottom: 15px;
+  color: black;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text1 > h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.magazine > .container1 > div > .card-body > a > h3 {
+  color: #000;
+  font-size: 18px;
+}
+
+.magazine > .container1 > div > .card-body > a:hover {
+  background-color: red;
+}
+
+.magazine > .second-row > div > .card-body > a > h5 {
+  color: #000;
+}
+
+.magazine > .second-row > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.magazine > .container1 > div > div > .card-body > a > h5 {
+  color: #000;
+}
+
+.magazine > .container1 > div > div > .card-body > a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.flex-sm-3 {
+  padding: 0 10px 0 10px;
+}
+
+.special {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px rgb(209, 209, 209) solid;
+}
+
+.special:first-of-type {
+  padding-top: 0;
+}
+
+.flex-fill > .special:last-of-type {
+  padding-bottom: 20px;
+}
+
+.title {
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.subscribe-newsletter {
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: auto;
+}
+
+.one {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #f4f5f6;
+}
+
+.trump {
+  padding-right: 40px;
+}
+
+.trump1 {
+  margin-left: -10px;
+}
+
+.two {
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.pictures {
+  padding-bottom: 13px;
+  padding-right: 90px;
+  flex: none;
+}
+
+.text {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.first-picture,
+.second-picture {
+  width: 170px;
+  height: 228px;
+}
+
+.second-picture {
+  top: 16px;
+  left: 80px;
+}
+
+.third-picture {
+  flex: none;
+  width: 48%;
+  max-width: 190px;
+  background: url(./assets/bottom-part/3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text1 {
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  border-left-width: 0;
+}
+
+.line,
+.line1 {
+  background-color: #e4e5e6;
+  height: 2px;
+  top: 0;
+  margin-left: -54px;
+  margin-right: -54px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.line1 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.special > .card-img > a > img {
+  height: 110px;
+  width: 110px;
+}
+
+.editions {
+  border-right: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .third-picture {
+    height: 170px;
+    min-width: 100%;
+  }
+
+  .subscribe {
+    font-size: 14px;
+  }
+
+  .hamburger {
+    font-size: 11px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .first-row > div,
+  .second-row > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .container1 > div:first-of-type {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .first-row {
+    width: 100%;
+    display: block;
+  }
+
+  .magazine {
+    --bs-gutter-x: 0 !important;
+  }
+
+  .container1 {
+    --bs-gutter-x: 0 !important;
+
+    display: block !important;
+  }
+
+  .mag-title {
+    display: flex;
+    border-bottom: none !important;
+  }
+
+  .editor1 > article,
+  .editor2 > article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .weird-grids > section > article {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .special > .card-img > a > img {
+    width: 258px;
+    height: 258px;
+  }
+
+  .special > .card-img {
+    width: 258px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .newsletter {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .small-newsweek {
+    padding-bottom: 2px;
+  }
+
+  .trump,
+  .trump1 {
+    width: 100% !important;
+  }
+
+  .trump1 {
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  .trump {
+    padding-right: 10px;
+  }
+
+  .fix > input,
+  .fix > a {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .fix > a {
+    width: 284px !important;
+    height: 41px;
+    line-height: 41px !important;
+  }
+
+  .text > a {
+    height: 41px;
+    line-height: 41px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigations > div > ul > li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    padding-bottom: 7px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .col-sm {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  footer {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .two {
+    text-align: left !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .sponsored > .card {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .third-picture,
+  .text1 {
+    width: 50%;
+  }
+
+  .third-picture {
+    min-width: 50%;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .one {
+    display: block !important;
+  }
+}
