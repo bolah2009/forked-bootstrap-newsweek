@@ -3,11 +3,6 @@ body {
   max-width: 1300px;
 }
 
-.news-logo {
-  width: 400px;
-  margin-bottom: -20px;
-}
-
 nav {
   background-color: #f72210;
 }
@@ -26,15 +21,6 @@ svg {
 
 nav > section > div > a {
   margin-right: 20px;
-  font-weight: bolder;
-}
-
-.nav-0 > a {
-  padding-bottom: 8px;
-}
-
-.nav2 {
-  margin-bottom: -5px;
 }
 
 .newsletter > a {
