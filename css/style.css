@@ -41,7 +41,6 @@ nav > section > div > a {
   color: white;
   background-color: #f72210;
   font-weight: bold;
-  border: none;
   border-radius: 2px;
   line-height: 31px;
 }
@@ -55,7 +54,6 @@ nav > section > div > a {
   color: white;
   background-color: #f72210;
   font-weight: bold;
-  border: none;
   border-radius: 2px;
   line-height: 31px;
   width: 120px;
@@ -424,7 +422,6 @@ footer > .navigations > div > ul > li a:hover {
 
 .card {
   padding-bottom: 20px;
-  border: none;
   border-radius: 0;
   font-size: 15px;
 }
@@ -673,7 +670,6 @@ footer > div:first-of-type {
 }
 
 .flex-fill > .special:last-of-type {
-  border: none;
   padding-bottom: 20px;
 }
 
