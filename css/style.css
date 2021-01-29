@@ -143,7 +143,6 @@ nav > section > div > a {
 
 .nav2 > ul > li {
   flex-grow: 1;
-  display: flex;
 }
 
 .nav2 > ul > li > i {
