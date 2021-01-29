@@ -106,10 +106,22 @@ nav > section > div > a {
 
 .card-img > span {
   background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
   left: 0;
   bottom: 0;
   padding: 5px 12px;
+}
+
+.middle-line > span,
+.middle-line1 > span {
+  background-color: black;
+  color: white;
+  top: -16px;
+  padding: 10px;
+  font-size: 14px;
+  z-index: 10;
+  line-height: 16px;
+  margin-left: -14px;
+  font-weight: bold;
 }
 
 .second-part > div > span {
@@ -161,7 +173,6 @@ nav > section > div > a {
 }
 
 .newsletter > input {
-  width: 100%;
   border: 1px solid #e0e1e1;
 }
 
@@ -177,7 +188,6 @@ nav > section > div > a {
 }
 
 .text1 > div > input {
-  width: 100%;
   color: #555;
   font-size: 14px;
   font-family: "Helvetica", sans-serif;
@@ -238,7 +248,6 @@ footer svg {
 }
 
 footer {
-  position: relative;
   z-index: 1;
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -247,7 +256,6 @@ footer {
 
 .navigations {
   font-size: 14px;
-  width: 100%;
 }
 
 .weird-grids > section > article > div > a:hover {
@@ -300,7 +308,6 @@ footer > .navigations > div > ul > li a:hover {
 }
 
 .card-img {
-  position: relative;
   margin-bottom: 10px;
 }
 
@@ -449,13 +456,10 @@ h3 {
   margin: 0 -10px 0 -10px;
 }
 
-#middle-line,
-#middle-line1 {
-  position: relative;
-  width: 100%;
+.middle-line,
+.middle-line1 {
   height: 3px;
   border: 1px solid #d9d9d9;
-  text-align: center;
   margin: 5px 0 30px 0;
 }
 
@@ -476,21 +480,6 @@ h3 {
   color: white;
   padding: 3px;
   margin-right: 0.7px;
-}
-
-#middle-line > span,
-#middle-line1 > span {
-  position: absolute;
-  border-radius: 50%;
-  background-color: black;
-  color: white;
-  top: -16px;
-  padding: 10px;
-  font-size: 14px;
-  z-index: 10;
-  line-height: 16px;
-  margin-left: -14px;
-  font-weight: bold;
 }
 
 .debate > .first {
@@ -521,7 +510,6 @@ h3 {
 }
 
 .first-row > div {
-  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -529,7 +517,6 @@ h3 {
 }
 
 footer > div:first-of-type {
-  width: 100%;
   font-size: 12px;
 }
 
@@ -585,15 +572,6 @@ footer > div:first-of-type {
   font-weight: bold;
 }
 
-.magazine > .container1 > div:first-of-type {
-  width: 25%;
-}
-
-.container1 {
-  align-items: flex-end;
-  width: 100%;
-}
-
 .weird-header > h3 {
   border-top: 1px solid #d9d9d9;
   color: #f72210;
@@ -643,10 +621,6 @@ footer > div:first-of-type {
 .magazine > .container1 > div > div > .card-body > a:hover {
   text-decoration: underline;
   text-decoration-color: red;
-}
-
-.first-row {
-  width: 75%;
 }
 
 .flex-sm-3 {
@@ -709,7 +683,6 @@ footer > div:first-of-type {
 }
 
 .pictures {
-  position: relative;
   padding-bottom: 13px;
   padding-right: 90px;
   flex: none;
@@ -727,13 +700,11 @@ footer > div:first-of-type {
 }
 
 .second-picture {
-  position: absolute;
   top: 16px;
   left: 80px;
 }
 
 .third-picture {
-  position: relative;
   flex: none;
   width: 48%;
   max-width: 190px;
@@ -916,6 +887,10 @@ footer > div:first-of-type {
   footer {
     padding-left: 18px;
     padding-right: 18px;
+  }
+
+  .two {
+    text-align: left !important;
   }
 }
 
