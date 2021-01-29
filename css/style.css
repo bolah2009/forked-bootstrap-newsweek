@@ -74,7 +74,6 @@ nav > section > div > a {
   font-size: 19px;
   color: black;
   font-weight: bold;
-  text-align: center;
   flex-grow: 1;
   border-right: 1px solid rgb(221, 221, 221);
 }
@@ -201,10 +200,6 @@ nav > section > div > a {
   font-weight: bold;
   background-color: #ffe400;
   border-radius: 10rem;
-}
-
-.nav-3 > ul {
-  text-align: center;
 }
 
 .col-12 ul {
@@ -876,14 +871,6 @@ footer > div:first-of-type {
 
   .trump {
     padding-right: 10px;
-  }
-
-  .two {
-    text-align: center;
-  }
-
-  .fix {
-    display: flex;
   }
 
   .fix > input,
