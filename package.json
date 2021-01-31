@@ -4,6 +4,7 @@
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "3.17.x"
+    "stylelint-scss": "3.17.x",
+    "stylelint-disallow-bootstrap-properties": "^1.x"
   }
 }
